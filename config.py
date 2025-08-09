@@ -277,3 +277,12 @@ kiln_profiles_directory = os.path.abspath(os.path.join(os.path.dirname( __file__
 # To prevent throttling, set throttle_percent to 100.
 throttle_below_temp = 300
 throttle_percent = 20
+
+class AlertsConfig(BaseModel):
+    enabled: bool = True
+    discord_webhook_url: str | None = None
+
+class AppSettings(BaseSettings):
+    ...
+    web: WebConfig = WebConfig()
+    alerts: AlertsConfig = AlertsConfig()

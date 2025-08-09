@@ -6,3 +6,4 @@ gpiozero>=2.0,<3
 RPi.GPIO>=0.7,<0.8
 Adafruit-Blinka>=8,<9
 adafruit-circuitpython-max31856>=1.5,<2
+pydantic-settings>=2.2,<3
