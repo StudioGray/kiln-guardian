@@ -1,0 +1,5 @@
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This project is a fork scaffold intended to replace/extend functionality from
+jbruce12000/kiln-controller. The fork remains GPLv3-compatible.
+See <https://www.gnu.org/licenses/gpl-3.0.en.html> for the full license text.

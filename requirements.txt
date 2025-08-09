@@ -1,25 +1,8 @@
-setuptools
-greenlet
-bottle
-gevent
-gevent-websocket
-websocket-client
-requests
-
-# for folks running raspberry pis
-# we have no proof of anyone using another board yet, but when that 
-# happens, you might want to comment this out.
-RPi.GPIO
-
-# List of all supported adafruit modules for thermocouples
-adafruit-circuitpython-max31855
-adafruit-circuitpython-max31856
-
-# for folks using sw spi (bit banging)
-adafruit-circuitpython-bitbangio
-
-# untested - for PT100 platinum thermocouples
-#adafruit-circuitpython-max31865
-
-# untested - for mcp9600 and mcp9601
-#adafruit-circuitpython-mcp9600
+Flask>=3.0.0,<4
+pydantic>=2.7,<3
+python-dotenv>=1.0,<2
+simple-pid>=2.0,<3
+gpiozero>=2.0,<3
+RPi.GPIO>=0.7,<0.8
+Adafruit-Blinka>=8,<9
+adafruit-circuitpython-max31856>=1.5,<2
